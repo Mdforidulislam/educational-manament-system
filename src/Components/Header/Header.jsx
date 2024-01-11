@@ -57,7 +57,7 @@ const Header = () => {
           />
         </div>
       </div>
-      <div className="flex gap-4">
+      <div className="flex gap-4 items-center h-full">
         <Notificationicon/>
         <Profile/>
       </div>

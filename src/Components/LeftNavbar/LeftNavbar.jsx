@@ -1,48 +1,10 @@
+import NavItem from "../NavItem/NavItem";
 
 
 const LeftNavbar = () => {
     return (
-        <div className="overflow-y-scroll w-[300px] px-6 py-2">
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
-            <h1>LeftNavbar</h1>
+        <div className="overflow-y-scroll px-4 py-2 custom-scrollbar-container h-full">
+            <NavItem/>
         </div>
     );
 };
