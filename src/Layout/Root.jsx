@@ -24,7 +24,7 @@ console.log(openD);
       </div>
       <div className="flex-1">
         <div className="md:flex block">
-          <div className="h-screen overflow-hidden  md:flex hidden ">
+          <div className="h-[109vh] overflow-hidden  md:flex hidden ">
             <LeftNavbar />
           </div>
           <div className="w-full md:hidden flex">

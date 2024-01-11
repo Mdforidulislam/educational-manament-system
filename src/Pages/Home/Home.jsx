@@ -1,7 +1,9 @@
+import { Outlet } from "react-router-dom";
+
 const Home = () => {
     return (
-        <div>
-            <h1>main content here </h1>
+        <div className="bg-[#F7F7FA] px-6 py-5">
+            <Outlet/>
         </div>
     );
 };

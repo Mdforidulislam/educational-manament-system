@@ -45,9 +45,9 @@ const NavItem = () => {
         </div>
         <div className="collapse-content list-none flex justify-center">
           <div className="space-y-6">
-          <Link><li className="hover:bg-[#3D5EE1] hover:text-white p-2 rounded-lg px-2 hover:duration-500">Admin Dashboard</li></Link>
-          <Link><li className="hover:bg-[#3D5EE1] hover:text-white p-2 rounded-lg px-2 hover:duration-500">Teacher Dashboard</li></Link>
-          <Link><li className="hover:bg-[#3D5EE1] hover:text-white p-2 rounded-lg px-2 hover:duration-500">Student Dashboard</li></Link>
+          <Link to='/'><li className="hover:bg-[#3D5EE1] hover:text-white p-2 rounded-lg px-2 hover:duration-500">Admin Dashboard</li></Link>
+          <Link to='/teacher'><li className="hover:bg-[#3D5EE1] hover:text-white p-2 rounded-lg px-2 hover:duration-500">Teacher Dashboard</li></Link>
+          <Link to='/student'><li className="hover:bg-[#3D5EE1] hover:text-white p-2 rounded-lg px-2 hover:duration-500">Student Dashboard</li></Link>
           </div>
         </div>
       </div>

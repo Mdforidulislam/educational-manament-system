@@ -3,7 +3,7 @@ import Profile from "../Profile/Profile";
 
 const Header = () => {
   return (
-    <div className=" bg-slate-300 w-full flex justify-between gap-6 py-3 px-6">
+    <div className="  w-full flex justify-between gap-6 py-3 px-6">
       <div className="flex gap-6">
         <div className="flex h-full items-center gap-5">
           <img
