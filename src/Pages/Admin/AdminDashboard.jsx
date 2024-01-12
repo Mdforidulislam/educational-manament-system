@@ -1,6 +1,8 @@
-import AdminOverview from "../../Graph/AdminOverview";
+import AreaChart from "../../Graph/AdminOverview";
+import BarChart from "../../Graph/BarChart";
 import AdminCard from "../../Shared/AdminCard";
 import AdminHeading from "../../Shared/adminHeading";
+import AdminStarStudent from "../../Table/AdminStarStudent";
 
 const AdminDashboard = () => {
     return (
@@ -19,7 +21,9 @@ const AdminDashboard = () => {
 
             <div>
                 <div>
-                    <AdminOverview/>
+                  <BarChart/>
+                   <AreaChart/>
+                    <AdminStarStudent/>
                 </div>
             </div> 
             </div>

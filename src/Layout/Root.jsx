@@ -18,13 +18,13 @@ const [openD, setOpenD] = useState(parsedDrawer);
 console.log(openD);
 
   return (
-    <div className="">
+    <div className=" overflow-hidden">
       <div className="w-full md:flex hidden">
         <Header />
       </div>
       <div className="flex-1">
         <div className="md:flex block">
-          <div className="h-[109vh] overflow-hidden  md:flex hidden ">
+          <div className="h-[109vh] md:flex hidden ">
             <LeftNavbar />
           </div>
           <div className="w-full md:hidden flex">
@@ -35,7 +35,7 @@ console.log(openD);
            <div className={`md:hidden absolute  bg-slate-300 bg-opacity-35 ${openD?'hidden':''}`}>
                 <DrawerMobile/>
             </div>
-           <div className="flex-1">
+           <div className="flex-1 overflow-hidden overflow-y-hidden overflow-x-hidden">
            <Home />
             <Footer />
            </div>
