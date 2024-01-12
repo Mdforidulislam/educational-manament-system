@@ -46,7 +46,8 @@ const AreaChart = () => {
 
   return (
     <div id="chart">
-      <ReactApexChart options={chartData.options} series={chartData.series} type="area" height={350} />
+      <h1>Overview</h1>
+      <ReactApexChart options={chartData.options} series={chartData.series} type="area" height={350} width={500}/>
     </div>
   );
 };

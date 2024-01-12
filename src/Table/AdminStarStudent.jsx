@@ -1,8 +1,8 @@
 const AdminStarStudent = () => {
   return (
     <div>
-      <div className="overflow-x-auto">
-        <table className="table">
+      <div className="overflow-x-scroll w-full">
+        <table className="table w-full">
           {/* head */}
           <thead>
             <tr>

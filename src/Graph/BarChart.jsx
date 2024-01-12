@@ -60,7 +60,8 @@ const BarChart = () => {
 
   return (
     <div id="chart">
-      <ReactApexChart options={chartData.options} series={chartData.series} type="bar" height={350} />
+      <h1>Number of Student</h1>
+      <ReactApexChart options={chartData.options} series={chartData.series} type="bar" height={350} width={500} />
     </div>
   );
 };

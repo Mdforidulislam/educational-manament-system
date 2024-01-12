@@ -5,7 +5,7 @@ import DrawerMobile from "../Components/LeftNavbar/DrawerMobile";
 import LeftNavbar from "../Components/LeftNavbar/LeftNavbar";
 import MobileNav from "../Components/LeftNavbar/MobileNav";
 import Home from "../Pages/Home/Home";
-
+import './Style.css'
 const Root = () => {
 // Retrieve data from localStorage
 const storedDrawer = localStorage.getItem('drawer');
@@ -18,7 +18,7 @@ const [openD, setOpenD] = useState(parsedDrawer);
 console.log(openD);
 
   return (
-    <div className=" overflow-hidden">
+    <div className="overflow-hidden overflow-x-hidden">
       <div className="w-full md:flex hidden">
         <Header />
       </div>
@@ -35,7 +35,7 @@ console.log(openD);
            <div className={`md:hidden absolute  bg-slate-300 bg-opacity-35 ${openD?'hidden':''}`}>
                 <DrawerMobile/>
             </div>
-           <div className="flex-1 overflow-hidden overflow-y-hidden overflow-x-hidden">
+           <div className="flex-1 ">
            <Home />
             <Footer />
            </div>
