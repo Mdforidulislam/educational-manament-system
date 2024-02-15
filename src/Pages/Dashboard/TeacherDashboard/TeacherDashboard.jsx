@@ -1,7 +1,8 @@
+
 const TeacherDashboard = () => {
     return (
         <div>
-            <h1>TeacherDashboard</h1>
+            <p>Teacher Dashboard</p>
         </div>
     );
 };

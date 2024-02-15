@@ -1,9 +1,9 @@
-import React from 'react';
+
 
 const StudentDashboard = () => {
     return (
         <div>
-            <h1>Student dashboard</h1>
+            <p>Student Dashboard</p>
         </div>
     );
 };

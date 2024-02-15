@@ -1,9 +1,9 @@
-import AreaChart from "../../Graph/AdminOverview";
-import BarChart from "../../Graph/BarChart";
-import PieChart from "../../Graph/PieChart";
-import AdminCard from "../../Shared/AdminCard";
-import AdminHeading from "../../Shared/adminHeading";
-import AdminStarStudent from "../../Table/AdminStarStudent";
+import AreaChart from "../../../Graph/AdminOverview";
+import BarChart from "../../../Graph/BarChart";
+import PieChart from "../../../Graph/PieChart";
+import AdminCard from "../../../Shared/AdminCard";
+import AdminHeading from "../../../Shared/adminHeading";
+import AdminStarStudent from "../../../Table/AdminStarStudent";
 
 const AdminDashboard = () => {
   return (

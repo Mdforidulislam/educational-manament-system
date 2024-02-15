@@ -1,9 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 import Root from "../Layout/Root";
 import Home from "../Pages/Home/Home";
-import AdminDashboard from "../Pages/Admin/AdminDashboard";
-import TeacherDashboard from "../Pages/Teacher/TeacherDashboard";
-import StudentDashboard from "../Pages/Student/StudentDashboard";
+import AdminDashboard from "../Pages/Dashboard/AdminDashboard/AdminDashboard";
+import TeacherDashboard from "../Pages/Dashboard/TeacherDashboard/TeacherDashboard";
+import StudentDashboard from "../Pages/Dashboard/StudentDashboard/StudentDashboard";
+
 
 const Router = createBrowserRouter([
     {
